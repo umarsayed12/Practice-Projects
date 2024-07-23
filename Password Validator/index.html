@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password <span>Validator</span></h1>
+        <div class="input">
+            <input type="password" id="inp" placeholder="Enter Password..."/>
+        </div>
+        <div class="message" id="pass">
+
+        </div>
+        <div class="guide" id="guid">
+            <ul id="len">
+                Must be greater than 8 characters.
+            </ul>
+            <ul id="special">
+                Must contain special characters i.e. (!,@,#,$,%,^,&,*,(,),_,-).  
+            </ul>
+            <ul id="dig">
+                Must contain digits i.e (0,1,2,3,4,5,6,7,8,9).
+            </ul>
+            <ul id="upper">
+                Must Contain UpperCase letters.
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
